@@ -1,7 +1,7 @@
 {
-  "name": "egg-view-nunjucks",
+  "name": "egg-view-nunjucks2",
   "version": "2.3.0",
-  "description": "nunjucks view plugin for egg",
+  "description": "nunjucks view plugin for egg,add await filter",
   "eggPlugin": {
     "name": "nunjucks",
     "dep": [
@@ -14,10 +14,12 @@
     "eggPlugin",
     "egg-plugin",
     "egg-view",
-    "nunjucks"
+    "nunjucks",
+    "await"
   ],
   "dependencies": {
-    "nunjucks": "^3.2.2"
+    "nunjucks": "^3.2.2",
+    "nunjucks-await-filter": "0.0.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -55,10 +57,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-view-nunjucks.git"
+    "url": "git+https://github.com/xqq965/egg-view-nunjucks.git"
   },
-  "bugs": "https://github.com/eggjs/egg/issues",
-  "homepage": "https://github.com/eggjs/egg-view-nunjucks#readme",
+  "bugs": "https://github.com/xqq965/egg-view-nunjucks/issues",
+  "homepage": "https://github.com/xqq965/egg-view-nunjucks#readme",
   "author": "TZ <atian25@qq.com>",
   "license": "MIT"
 }
